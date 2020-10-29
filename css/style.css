@@ -500,6 +500,7 @@ img.growth-up-icon {
 #business-area {
   position: relative;
   overflow: hidden;
+  padding-bottom: 160px;
 }
 #business-area img {
   margin-left: 150px;
