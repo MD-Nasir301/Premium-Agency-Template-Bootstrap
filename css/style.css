@@ -276,7 +276,7 @@ a,
 }
 .banner-content p {
     color: #fff;
-    margin-bottom: 3.5rem;
+    margin-bottom: 5.5rem;
 }
 
 /* search-box --- */
@@ -674,6 +674,7 @@ img.growth-up-icon {
   text-align: center;
   padding: 50px 0;
   color: gray;
+  margin: 0;
 }
 /* End Footer Area style   ============================== */
 

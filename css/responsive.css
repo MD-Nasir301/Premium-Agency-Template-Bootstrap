@@ -7,24 +7,241 @@
 
 /* Normal desktop :992px. (lg) */
 @media (min-width: 992px) and (max-width: 1200px) {
+h2 {
+  font-size: 5rem;
+}
 
+/* banner --- */
+.popup-one {
+  top: 117%;
+  left: 8%;
+}
+.popup-box.popup-two {
+  top: 113%;
+  right: -8%;
+}
+/* Project --- */
+#project-area {
+  margin: 0;
+}
 
+/* creativity --- */
+.creativity-left .sec-title h2 {
+  font-size: 5rem;
+}
+.creativity-images {
+  position: relative;
+  min-height: 780px;
+}
+.creativity-images img {
+  width: 50%;
+}
+.creativity-images .img-two {
+  top: 80px;
+  right: 55px;
+}
+.creativity-images .img-three {
+  top: 300px;
+  left: -65px;
+}
+.creativity-images .img-four {
+  top: 384px;
+  right: 56px;
+}
+
+/* business  --- */
+.business-right {
+  padding: 60px 0px 10px 20px;
+}
+
+/* Solution --- */
+#solution-area {
+  margin-bottom: 0;
+}
+.solution-text h2 {
+  font-size: 60px;
+}
+.solution-img {
+  width: 50%;
+}
+.solution-img img {
+  width: 100%;
+}
+
+/* help --- */
+#help-area {
+  margin-bottom: 200px;
+}
+.contact-form {
+  padding-top: 50px;
+}
+
+/* footer --- */
+.footer-text {
+  margin-bottom: 100px;
+}
+.footer-widgets-area.mb-70 {
+  margin-bottom: 15px;
+}
 }
 
  
 /* Tablet desktop :768px. (md) */
 @media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 5rem;
+}
+/* banner --- */
+#banner-area {
+  margin-bottom: 100px;
+  background: url(../img/banner/banner-bg.png) top center / 148% 88% no-repeat;
+}
+.banner-content > p {
+  margin-bottom: 3.5rem;
+}
+.popup-con tent p {
+  margin-bottom: 0rem;
+}
+.search-box {
+  padding: 10px;
+}
+.popup-one {
+  top: 110%;
+  left: 0%;
+}
+.popup-box.popup-two {
+  top: 106%;
+  right: 0%;
+}
 
+/* service --- */
+#service-area {
+  margin-bottom: 105px;
+}
+.service-title {
+  margin-top: -60px;
+}
+.service-text p {
+  padding-right: 0;
+  text-align: justify;
+}
+.service-name {
+  font-size: 1.5rem;
+  top: 17px;
+  left: 15px;
+}
 
+/* project --- */
+#project-area {
+  margin-bottom: 0px;
+}
+.owl-carousel .owl-stage-outer {
+  min-height: 265px;
+}
+.owl-stage {
+  margin-left: -145px;
+}
+
+/* creativity --- */
+#creativity-area {
+  margin-bottom: 50px;
+}
+.creativity-left {
+  padding-right: 0;
+  margin-top: 0;
+}
+.creativity-left .sec-title h2 {
+  text-align: center;
+}
+.creativity-right {
+  margin-top: 50px;
+}
+.creativity-images {
+  min-height: 570px;
+}
+.creativity-images img {
+  max-width: 40%;
+}
+.creativity-images .img-one {
+  top: 0;
+  left: 0;
+}
+.creativity-images .img-two {
+  top: 55px;
+  right: 75px;
+}
+.creativity-images .img-three {
+  top: 245px;
+  left: 5px;
+}
+.creativity-images .img-four {
+  top: 301px;
+  right: 72px;
+}
+
+/* business --- */
+#business-area {
+  padding-bottom: 100px;
+}
+#business-area img {
+  margin-left: 40px;
+}
+.business-right {
+  padding: 10px 0;
+}
+.business-right h2 {
+  font-size: 4rem;
+}
+
+/* solution --- */
+#solution-area {
+  margin-bottom: 50px;
+}
+.solution-content {
+  min-height: 410px;
+}
+.solution-text h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.solution-img {
+  width: 50%;
+}
+.solution-img img {
+  width: 100%;
+}
+
+/* help --- */
+#help-area {
+  margin-bottom: 145px;
+}
+
+/* footer --- */
+.footer-text.text-center {
+  margin-bottom: 50px;
+}
+.footer-widgets-area.mb-70 {
+  margin-bottom: 0;
+}
+.copy-right-area p {
+  padding: 20px 0;
+}
 }
 
 
 /* small mobile :320px.(xs) */
 @media (max-width: 767px) {
-
- 
+h2 {
+  font-size: 3rem;
 }
- 
+.solution-text h2 {
+  font-size: 30px;
+}
+
+
+
+}
+
 /* Large Mobile :480px. (sm) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
