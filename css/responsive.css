@@ -1,11 +1,11 @@
-/* Normal desktop :1200px. (xl) */
+/* Normal desktop :1200px. (xl) ---------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1500px) {
 
 
 }
 
 
-/* Normal desktop :992px. (lg) */
+/* Normal desktop :992px. (lg)------------------------------------------------------------------ */
 @media (min-width: 992px) and (max-width: 1200px) {
 h2 {
   font-size: 5rem;
@@ -86,7 +86,7 @@ h2 {
 }
 
  
-/* Tablet desktop :768px. (md) */
+/* Tablet desktop :768px. (md)------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
   h2 {
     font-size: 5rem;
@@ -229,21 +229,224 @@ h2 {
 }
 
 
-/* small mobile :320px.(xs) */
+/* small mobile :320px.(xs)------------------------------------------------------- */
 @media (max-width: 767px) {
 h2 {
   font-size: 3rem;
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+.sec-title {
+  margin-bottom: 30px;
+}
+
+
+/* header --- */
+#header-area {
+  margin-top: 2rem;
+}
+
+/* banner --- */
+#banner-area {
+  margin-bottom: 380px;
+  background: #f34f55;
+  min-height: 500px;
+}
+.banner-content {
+  margin-top: 80px;
+}
+.search-box {
+  padding: 6px 3px 6px 15px;
+}
+.search-box form input {
+  padding: 0px;
+}
+.banner-content p {
+  text-align: justify;
+}
+.banner-content > p {
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.popup-one {
+  top: 105%;
+
+}
+.popup-box.popup-two {
+  min-width: 270px;
+  margin-top: 20px;
+  padding: 4px 25px;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+}
+.popup-icon {
+  margin-top: 12px;
+}
+
+/* service --- */
+#service-area {
+  margin-bottom: 65px;
+}
+.service-title {
+  padding-right: 0;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.service-text p {
+  padding-right: 0;
+  text-align: justify;
+}
+.single-service-card {
+  margin: 10px auto;
+}
+
+/* project --- */
+#project-area {
+  margin-bottom: 20px;
+}
+.owl-carousel .owl-stage-outer {
+  min-height: 300px;
+}
+.owl-stage {
+  margin-left: 0px;
+}
+
+/* creativity --- */
+section#creativity-area {
+  margin-bottom: 25px;
+}
+.creativity-left {
+  margin-top: 0;
+  padding-right: 0px;
+}
+.creativity-left .sec-title h2 {
+  padding-right: 0px;
+}
+.creativity-left-text p {
+  text-align: justify;
+}
+
+/* business  --- */
+section#business-area {
+    margin-bottom: 18px;
+}
+#business-area {
+  padding-bottom: 0px;
+}
+.business-right {
+  padding: 0;
+}
+.business-right h2 {
+  color: black !important;
+}
+.business-right p {
+  color: gray !important;
+}
+
+/* solution --- */
+#solution-area {
+  margin-bottom: 45px;
+}
+.solution-content {
+  position: relative;
+  min-height: 285px;
+}
+.solution-text {
+  top: 20px;
 }
 .solution-text h2 {
   font-size: 30px;
+  margin-bottom: 15px;
+}
+.solution-img {
+  width: 100%;
+}
+.solution-img img{
+  width: 100%;
+  opacity: .2;
+}
+
+/* help --- */
+#help-area {
+  margin-bottom: 100px;
+}
+.help-left-text h3 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.help-left-text p {
+  font-weight: 700;
+  margin: 0 0 15px 35px;
+}
+.address-box {
+  margin-bottom: 20px;
+}
+.address-box p {
+  text-align: center;
+}
+.contact-form {
+  padding: 0px 0px 0px;
+}
+.contact-form input {
+  margin: 4px 0;
+  padding: 15px;
+}
+
+/* footer --- */
+.footer-text.text-center {
+  margin-bottom: 50px;
+}
+.footer-widgets-area {
+  margin-bottom: 0px;
+}
+.footer-widgets, .footer-widgets p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer-widgets ul li a {
+  padding-bottom: 5px;
+}
+.footer-widgets.address p {
+  margin-bottom: 5px;
+}
+
+/* copyright --- */
+.copy-right-area p {
+  padding: 10px 0;
 }
 
 
-
 }
 
-/* Large Mobile :480px. (sm) */
+/* Large Mobile :480px. (sm)----------------------------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
+
+}
+/* Small Mobile :360px. (sm)----------------------------------------------------------- */
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .popup-box.popup-two {
+    top: 150%;
+  }
  
+}
+/* Small Mobile :375px. (sm) -----------------------------------------------------------*/
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+.popup-box.popup-two {
+  top: 153%;
+}
+.solution-text {
+  padding: 20px;
+}
+.solution-img img {
+  max-height: 340px;
+}
+
 }

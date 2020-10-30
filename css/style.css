@@ -526,7 +526,9 @@ img.growth-up-icon {
 .solution-content  {
   position: relative;
   min-height: 600px;
+
 }
+
 .solution-text {
   position: absolute;
   top: 135px;
