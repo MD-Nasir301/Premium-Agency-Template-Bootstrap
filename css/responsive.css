@@ -327,7 +327,7 @@ p {
   margin-bottom: 20px;
 }
 .owl-carousel .owl-stage-outer {
-  min-height: 270px;
+  min-height: 300px;
 }
 .owl-stage {
   margin-left: 0px;
@@ -442,7 +442,7 @@ section#business-area {
   .popup-box.popup-two {
     top: 150%;
   }
- 
+
 }
 /* Small Mobile :375px. (sm) -----------------------------------------------------------*/
 @media only screen and (min-width: 375px) and (max-width: 767px) {
