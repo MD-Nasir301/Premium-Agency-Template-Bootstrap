@@ -274,8 +274,8 @@ p {
   position: absolute;
   content: '';
   width: 100%;
-  min-height: 90px;
-  max-height: 100px;
+   min-height: 90px;
+  /* max-height: 100px; */
   background: url(../img/banner/banner-bg-after.png) no-repeat;
   background-size: contain;
   left: 0;
@@ -427,6 +427,9 @@ section#business-area {
   padding: 15px;
 }
 /* footer --- */
+#footer-area::after {
+  min-height: 85px; 
+}
 .footer-text.text-center {
   margin-bottom: 50px;
 }
