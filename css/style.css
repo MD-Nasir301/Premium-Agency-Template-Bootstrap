@@ -225,20 +225,20 @@ a,
 /*  Sticky Nav End  ============================== */
 
 
-/* res-menu-btn Start ============================== */
-.res-menu-btn {
+/* toggle-nav-btn Start ============================== */
+.toggle-nav-btn {
   border: none;
   background: none;
   margin-top: 2px;
 }
-.res-menu-btn span {
+.toggle-nav-btn span {
   width: 26px;
   height: 4px;
   background: #efefef;
   display: block;
   margin: 3px 0;
 }
-/*  res-menu-btn End  ============================== */
+/*  toggle-nav-btn End  ============================== */
 
 
 /* Start Header style ============================== */

@@ -20,14 +20,17 @@ function stickyNav() {
 $(function(){
   var nav = $('.main-menu ul'),
       animateTime = 500,
-      navLink = $('.res-menu-btn');
+      navLink = $('.toggle-nav-btn');
+
   navLink.click(function(){
     if(nav.height() === 0){
       autoHeightAnimate(nav, animateTime);
-    } else {
+    }  
+    else {
       nav.stop().animate({ height: '0' }, animateTime);
     }
   });
+  
 })
 
 /* Function to animate height: auto */
@@ -37,6 +40,13 @@ function autoHeightAnimate(element, time){
     	  element.height(curHeight); // Reset to Default Height
     	  element.stop().animate({ height: autoHeight }, time); // Animate to Auto Height
 }
+
+// hide main-menu after click a link for small device
+$('.main-menu ul li a').click(function(){
+  $(".main-menu ul").animate({ height: '0' },300);
+})
+
+
 
 
 // owlCarousel------------------------
