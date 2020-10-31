@@ -19,7 +19,7 @@ function stickyNav() {
 
 $(function(){
   var nav = $('.main-menu ul'),
-      animateTime = 500,
+      animateTime = 400,
       navLink = $('.toggle-nav-btn');
 
   navLink.click(function(){
