@@ -266,9 +266,22 @@ p {
 /* banner --- */
 #banner-area {
   margin-bottom: 380px;
-  background: #f34f55;
+  background: #f95157;
   min-height: 500px;
+  position: relative;
 }
+#banner-area::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  min-height: 90px;
+  max-height: 100px;
+  background: url(../img/banner/banner-bg-after.png) no-repeat;
+  background-size: contain;
+  left: 0;
+  top: 100%;
+}
+
 .banner-content {
   margin-top: 80px;
 }
