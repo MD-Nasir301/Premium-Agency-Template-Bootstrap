@@ -2,12 +2,12 @@
 "use strict";
 
 // Sticky nav 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyNav()};
 
 var header = document.getElementById("header-area");
 var sticky = header.offsetTop;
 
-function myFunction() {
+function stickyNav() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
@@ -16,6 +16,27 @@ function myFunction() {
   console.log(sticky);
 }
 
+
+$(function(){
+  var nav = $('.main-menu ul'),
+      animateTime = 500,
+      navLink = $('.res-menu-btn');
+  navLink.click(function(){
+    if(nav.height() === 0){
+      autoHeightAnimate(nav, animateTime);
+    } else {
+      nav.stop().animate({ height: '0' }, animateTime);
+    }
+  });
+})
+
+/* Function to animate height: auto */
+function autoHeightAnimate(element, time){
+  	var curHeight = element.height(), // Get Default Height
+        autoHeight = element.css('height', 'auto').height(); // Get Auto Height
+    	  element.height(curHeight); // Reset to Default Height
+    	  element.stop().animate({ height: autoHeight }, time); // Animate to Auto Height
+}
 
 
 // owlCarousel------------------------

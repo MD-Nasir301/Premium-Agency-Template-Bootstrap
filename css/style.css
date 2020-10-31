@@ -216,13 +216,31 @@ a,
 } */
 
 
-/* Sticky Nav Area  Start ============================== */
+/* Sticky Nav Start ============================== */
 .sticky {
   margin-top: 0 !important;
   padding: 8px;
   background: red;
 }
-/*  Sticky Nav Area  End  ============================== */
+/*  Sticky Nav End  ============================== */
+
+
+/* res-menu-btn Start ============================== */
+.res-menu-btn {
+  border: none;
+  background: none;
+  margin-top: 2px;
+}
+.res-menu-btn span {
+  width: 26px;
+  height: 4px;
+  background: #efefef;
+  display: block;
+  margin: 3px 0;
+}
+/*  res-menu-btn End  ============================== */
+
+
 /* Start Header style ============================== */
 #header-area {
   margin-top: 6rem;
