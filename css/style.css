@@ -219,7 +219,7 @@ a,
 /* Sticky Nav Start ============================== */
 .sticky {
   margin-top: 0 !important;
-  padding: 8px;
+  padding: 8px 0;
   background: red;
 }
 /*  Sticky Nav End  ============================== */
