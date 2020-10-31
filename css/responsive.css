@@ -424,6 +424,12 @@ section#business-area {
   margin-bottom: 20px;
   text-align: center;
 }
+.footer-widgets.useful-link ul li {
+  text-align: left;
+}
+.footer-widgets.social-link ul li {
+  text-align: right;
+}
 .footer-widgets ul li a {
   padding-bottom: 5px;
 }
