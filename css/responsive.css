@@ -1,9 +1,7 @@
 /* Normal desktop :1200px. (xl) ---------------------------------------------------------------*/
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
 }
-
 
 /* Normal desktop :992px. (lg)------------------------------------------------------------------ */
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -85,7 +83,6 @@ h2 {
 }
 }
 
- 
 /* Tablet desktop :768px. (md)------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
   h2 {
@@ -228,7 +225,6 @@ h2 {
 }
 }
 
-
 /* small mobile :320px.(xs)------------------------------------------------------- */
 @media (max-width: 767px) {
 h2 {
@@ -241,7 +237,6 @@ p {
 .sec-title {
   margin-bottom: 30px;
 }
-
 
 /* header --- */
 #header-area {
@@ -267,7 +262,6 @@ p {
 .main-menu nav ul li:last-child {
   padding-bottom: 20px;
 }
-
 
 /* banner --- */
 #banner-area {
@@ -333,7 +327,7 @@ p {
   margin-bottom: 20px;
 }
 .owl-carousel .owl-stage-outer {
-  min-height: 300px;
+  min-height: 270px;
 }
 .owl-stage {
   margin-left: 0px;
@@ -419,7 +413,6 @@ section#business-area {
   margin: 4px 0;
   padding: 15px;
 }
-
 /* footer --- */
 .footer-text.text-center {
   margin-bottom: 50px;
@@ -442,15 +435,8 @@ section#business-area {
 .copy-right-area p {
   padding: 10px 0;
 }
-
-
 }
 
-/* Large Mobile :480px. (sm)----------------------------------------------------------- */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
-
-}
 /* Small Mobile :360px. (sm)----------------------------------------------------------- */
 @media only screen and (min-width: 360px) and (max-width: 767px) {
   .popup-box.popup-two {
@@ -463,11 +449,20 @@ section#business-area {
 .popup-box.popup-two {
   top: 153%;
 }
+.owl-carousel .owl-stage-outer {
+  min-height: 330px;
+}
 .solution-text {
   padding: 20px;
 }
 .solution-img img {
   max-height: 340px;
+}
+}
+/* Small Mobile :500px. (sm) -----------------------------------------------------------*/
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+.owl-carousel .owl-stage-outer {
+  min-height: 400px;
 }
 
 }

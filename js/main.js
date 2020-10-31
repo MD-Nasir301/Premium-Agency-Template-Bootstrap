@@ -54,12 +54,16 @@ $('.main-menu ul li a').click(function(){
         loop:true,
         margin:0,
       items:1,
-      navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-        nav:true,
+      navText:['prev','next'],
+        nav:false,
       dots:false,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav: true,
+            },
+            530:{
+                items:2
             },
             767:{
                 items:3
